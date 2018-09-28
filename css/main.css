@@ -6,14 +6,6 @@
     padding: 25px 1%;
     margin-bottom: 0%;
   }
-
-  nav li:first-child a {
-    margin-left: 0;
-  }
-
-  nav li:last-child a {
-    margin-right: 0;
-  }
 }
 
 @media only screen (min-width: 786px),
@@ -22,20 +14,12 @@ only screen and (min-width: 700px) and (orientation: landscape) {
     float:left;
     font-size: 1.4em;
   }
-
-  nav {
-    float: right;
-    width: 60%
-  }
-
-  nav a {
-    padding: 15px 1%;
-  }
 }
 
 /*************************
 Base Styles
 *************************/
+
 
 html {
   color: #222;
@@ -49,79 +33,17 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+/* main styling */
 body {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  line-height: 46px;
   background-color: rgba(255, 0, 0, 0.5);
   text-align: center;
 }
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.header-container {
-  border-bottom: 20px solid #0B132B;
-}
-
-.footer-container,
-.main aside {
-  border-top: 20px solid #0B132B;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-  background: #67AAF9;
-}
-
-.title {
-  color: white;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-nav a {
-  display: block;
-  margin-bottom: 10px;
-  padding: 15px 0;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  background: #0b132b;
-}
-
-nav a:hover,
-nav a:visited {
-  color: white;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.main {
-  padding: 30px 0;
-}
-
-.main article h1 {
-  font-size: 2em;
-}
-
-.main aside {
-  color: white;
-  padding: 0px 5% 10px;
-}
-
-.footer-container footer {
+/* footer styling */
+.footer {
   color: white;
   padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
